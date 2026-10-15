@@ -1,0 +1,5 @@
+{
+  "testId": "tasks.delete.ui.live",
+  "assertions": "All assertions completed",
+  "observed": "MCP write observed without manual refresh"
+}

@@ -1,0 +1,12 @@
+{
+  "testId": "ui.api-table.ui.screenshots",
+  "assertions": "All assertions completed",
+  "observed": {
+    "screenshots": [
+      "api-table-dark.png",
+      "api-table-light.png",
+      "api-table-mobile.png"
+    ],
+    "overflow": false
+  }
+}

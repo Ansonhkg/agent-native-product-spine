@@ -1,0 +1,5 @@
+{
+  "testId": "tasks.complete.host.security",
+  "assertions": "All assertions completed",
+  "observed": "Authentication, scope, input validation and capability rejection observed"
+}

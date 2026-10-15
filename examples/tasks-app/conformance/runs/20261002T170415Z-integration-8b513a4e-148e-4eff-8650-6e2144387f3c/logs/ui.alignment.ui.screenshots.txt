@@ -1,0 +1,13 @@
+{
+  "testId": "ui.alignment.ui.screenshots",
+  "assertions": "All assertions completed",
+  "observed": {
+    "screenshots": [
+      "light.png",
+      "dark.png",
+      "mobile.png"
+    ],
+    "overflow": false,
+    "iconCenterTolerance": 1
+  }
+}

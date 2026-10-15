@@ -1,0 +1,67 @@
+{
+  "testId": "tasks.complete.http.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 8,
+      "key": "339ed64e-7c1d-44f3-b684-8631863cf394",
+      "id": "c63155bf-9217-42ed-b94c-a10cf3ae8602",
+      "completed": true
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 9,
+      "tasks": [
+        {
+          "id": "8b80929e-0d24-4fd6-b163-512afb11dc25",
+          "title": "Task 6a6ce68c-d9ee-48a3-98cd-c163a0dd086a",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "d881fe39-9ca0-4cee-bc04-8272d8d9c8d7",
+          "title": "Task 2e895687-1bbc-4cd6-988a-6eb4eb2dfa1a",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "d2d27a1f-74a3-40e8-9070-d30c12e63247",
+          "title": "Task 455e0160-ef5a-4af6-9b2f-db89f2fe9276",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "c9355ac9-fd28-4399-9f7a-ec37b69e3da6",
+          "title": "Task fa109ab9-dc58-406d-88d3-5e9e707c3dab",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "5d577aa0-d105-4dc3-94f3-1f43c4e0319a",
+          "title": "Task 9f7e4e99-9cdd-4ea1-8f05-da1c3caf64c0",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "058cbf9a-984b-46e7-b3ed-9ac2186db4f3",
+          "title": "Task c0ef73fa-f22a-4e91-9566-9c8e28bd7754",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "01b530e0-ff7e-47fb-a6a2-309830cc038a",
+          "title": "Seed d3d0b44a-3ef6-408f-b81d-e9f40e6a8e48",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "c63155bf-9217-42ed-b94c-a10cf3ae8602",
+          "title": "Seed ac42409e-a36f-488a-a2d3-50c8672fa84d",
+          "completed": true,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}

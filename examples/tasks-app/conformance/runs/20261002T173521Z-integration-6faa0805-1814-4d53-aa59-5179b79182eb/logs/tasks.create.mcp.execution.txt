@@ -1,0 +1,36 @@
+{
+  "testId": "tasks.create.mcp.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 2,
+      "key": "554ef43e-6396-4da4-839e-667a3bedce10",
+      "title": "Task 17258bcb-3fc1-42f6-b69c-e6206859301d"
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 3,
+      "tasks": [
+        {
+          "id": "868c828c-c950-43b9-9f2a-99d7ad9994a3",
+          "title": "Task 558f4bb2-f734-455b-94e1-60b390762a1f",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "42d5dd44-72e1-4c3b-a48d-9b9fa333c623",
+          "title": "Task 45f83dba-c6f4-4db4-940e-c93538ccb167",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "c4be079f-08b9-4941-b8f0-578e7be34021",
+          "title": "Task 17258bcb-3fc1-42f6-b69c-e6206859301d",
+          "completed": false,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}

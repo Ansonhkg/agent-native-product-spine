@@ -1,0 +1,5 @@
+{
+  "testId": "ui.documentation.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Direct/reload, search, surface persistence, shortcuts, copy, anchors verified"
+}

@@ -1,0 +1,13 @@
+{
+  "testId": "host.documentation.http.links",
+  "assertions": "All assertions completed",
+  "observed": [
+    "/docs/api",
+    "/docs/api#quick-start",
+    "/docs/openapi.json",
+    "/docs/operations.json",
+    "/docs/api#mcp",
+    "/docs/api#cli",
+    "/docs/api#mutations"
+  ]
+}

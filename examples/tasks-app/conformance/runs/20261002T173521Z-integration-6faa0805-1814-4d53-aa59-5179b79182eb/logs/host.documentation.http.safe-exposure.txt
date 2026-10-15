@@ -1,0 +1,5 @@
+{
+  "testId": "host.documentation.http.safe-exposure",
+  "assertions": "All assertions completed",
+  "observed": "Public contracts contain no authority or workspace records; runtime discovery filters reader"
+}

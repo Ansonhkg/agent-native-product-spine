@@ -1,0 +1,61 @@
+{
+  "testId": "tasks.complete.cli.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 8,
+      "key": "319cd5a8-aa58-4523-b1b9-28b504123ffa",
+      "id": "25833b23-9762-4dec-ae63-79839576996b",
+      "completed": true
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 9,
+      "tasks": [
+        {
+          "id": "a850188a-bce1-433d-ad19-4123e33721d2",
+          "title": "Task 591aa666-7d68-4f13-8db4-6cb613f6d4a7",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "e1cb091a-d712-4af9-b3c7-866f8efa0d1b",
+          "title": "Task 5e8fcd49-9089-4283-af4d-5197ae9b4b20",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "4720cf34-cc2d-4910-8b3d-8eeb907b9357",
+          "title": "Task 7df8f6d4-869a-49e2-8337-67bd20eb5954",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "f63e548b-4f7e-42b7-8cf0-7560e26da188",
+          "title": "Task 44af0bdf-d0d7-4aed-b1f8-a58449041a6b",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "7bec4243-c01d-4bdb-adb6-61e171b5536f",
+          "title": "Seed fdefca14-d086-4486-8e99-dc884598f71c",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "af08a2c7-bcb1-41fb-b557-c0be37fb6b51",
+          "title": "Seed 93d79087-4c09-409b-ae25-67929f0d7a96",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "25833b23-9762-4dec-ae63-79839576996b",
+          "title": "Seed 33bef308-92ae-46ac-abbb-b57bae704e94",
+          "completed": true,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}

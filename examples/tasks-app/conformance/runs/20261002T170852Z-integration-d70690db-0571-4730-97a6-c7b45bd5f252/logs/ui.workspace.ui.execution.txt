@@ -1,0 +1,5 @@
+{
+  "testId": "ui.workspace.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Explicit workspace, deep-link reload, and client navigation passed"
+}

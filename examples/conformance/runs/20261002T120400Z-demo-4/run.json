@@ -1,0 +1,28 @@
+{
+  "run": {
+    "id": "demo-4",
+    "at": "2026-10-02T12:04:00Z",
+    "revision": "illustrative-revision-4",
+    "environment": "illustrative-example",
+    "profile": "core-product",
+    "mode": "new",
+    "illustrative": true
+  },
+  "obligationsDigest": "64f3f197bab8ee0308d97484558a0fad0301e6591758ff63c55aa41162fb1a3f",
+  "inventoryDigest": "3fc836e3d41d2bfca9e9f9f560e2cd82f608c8322c6c2fc6c30397d104f6cc38",
+  "gatePassed": false,
+  "releaseConformant": false,
+  "gateIssues": [
+    "Unresolved requirement: exports.download / cli / contract",
+    "Unresolved requirement: exports.download / cli / execution",
+    "Unresolved requirement: exports.download / cli / scope-denial",
+    "Unresolved requirement: exports.download / cli / wiring",
+    "Unresolved requirement: items.delete / mcp / atomic-commit",
+    "Unresolved requirement: items.delete / mcp / contract",
+    "Unresolved requirement: items.delete / mcp / execution",
+    "Unresolved requirement: items.delete / mcp / live-update",
+    "Unresolved requirement: items.delete / mcp / scope-denial",
+    "Unresolved requirement: items.delete / mcp / wiring",
+    "Illustrative data cannot pass a production gate."
+  ]
+}

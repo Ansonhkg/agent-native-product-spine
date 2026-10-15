@@ -1,0 +1,10 @@
+{
+  "testId": "host.lifecycle.host.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "restart": "Identical persisted snapshot after SIGTERM and restart",
+    "events": 387,
+    "definitions": "task-mutation@1",
+    "adapterWrites": false
+  }
+}

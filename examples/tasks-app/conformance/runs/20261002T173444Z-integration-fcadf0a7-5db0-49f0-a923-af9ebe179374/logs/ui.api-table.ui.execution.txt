@@ -1,0 +1,5 @@
+{
+  "testId": "ui.api-table.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Runtime catalog rows, route search, surface persistence and detailed-reference navigation verified"
+}

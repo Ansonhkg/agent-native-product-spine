@@ -1,0 +1,5 @@
+{
+  "testId": "tasks.create.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "UI task c64694c2-7a31-48aa-8a89-7e98af91848a"
+}

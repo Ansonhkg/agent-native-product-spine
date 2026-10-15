@@ -1,0 +1,15 @@
+{
+  "run": {
+    "id": "integration-7b4b91e4-68c7-4935-9081-e9f1c52f340d",
+    "at": "2026-10-02T17:30:11.034Z",
+    "revision": "content-sha256:527b7a1fd78ba995e1e41c818c30c2b3d1e76b68d69d87667947ac5a99bed9eb",
+    "environment": "local-sqlite-http-cli-mcp-chromium",
+    "profile": "release",
+    "mode": "new"
+  },
+  "obligationsDigest": "151d866b654b253db5400a73a75a68b3f3c95bbd890f19a65f5beeebff5dd9ce",
+  "inventoryDigest": "5f4c4b91e43c80f1247b73e192659c19ba443a14dfb92850f33acd535c3e130d",
+  "gatePassed": true,
+  "releaseConformant": true,
+  "gateIssues": []
+}

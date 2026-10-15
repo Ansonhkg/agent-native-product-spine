@@ -1,0 +1,5 @@
+{
+  "testId": "ui.shortcuts.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Command K, Enter, Escape verified"
+}

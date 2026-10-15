@@ -1,0 +1,5 @@
+{
+  "testId": "ui.layout.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Grid layout survives reload"
+}

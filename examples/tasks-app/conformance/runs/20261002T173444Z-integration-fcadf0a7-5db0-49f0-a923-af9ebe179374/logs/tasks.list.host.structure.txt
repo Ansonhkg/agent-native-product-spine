@@ -1,0 +1,9 @@
+{
+  "testId": "tasks.list.host.structure",
+  "assertions": "All assertions completed",
+  "observed": {
+    "operation": "tasks.list",
+    "binding": "/api/tasks/list",
+    "workflow": null
+  }
+}

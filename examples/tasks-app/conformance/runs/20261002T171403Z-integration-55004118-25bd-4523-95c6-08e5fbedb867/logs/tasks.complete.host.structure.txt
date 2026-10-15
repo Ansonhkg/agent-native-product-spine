@@ -1,0 +1,9 @@
+{
+  "testId": "tasks.complete.host.structure",
+  "assertions": "All assertions completed",
+  "observed": {
+    "operation": "tasks.setCompleted",
+    "binding": "/api/tasks/setCompleted",
+    "workflow": "task-mutation@1"
+  }
+}

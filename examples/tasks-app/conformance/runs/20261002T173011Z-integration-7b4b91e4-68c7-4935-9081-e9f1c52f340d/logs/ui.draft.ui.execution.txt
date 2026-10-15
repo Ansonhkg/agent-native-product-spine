@@ -1,0 +1,5 @@
+{
+  "testId": "ui.draft.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Floating draft save/discard does not change surrounding layout"
+}

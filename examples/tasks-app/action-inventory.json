@@ -1,0 +1,400 @@
+[
+  {
+    "id": "tasks.list",
+    "domain": "Tasks",
+    "label": "List tasks",
+    "kind": "product",
+    "operation": "tasks.list",
+    "scope": "workspace",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "structure"
+      },
+      {
+        "surface": "host",
+        "check": "security"
+      },
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "cli",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "tasks.create",
+    "domain": "Tasks",
+    "label": "Create task",
+    "kind": "product",
+    "operation": "tasks.create",
+    "scope": "workspace",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "structure"
+      },
+      {
+        "surface": "host",
+        "check": "security"
+      },
+      {
+        "surface": "host",
+        "check": "atomic-retry"
+      },
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "cli",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "live"
+      }
+    ]
+  },
+  {
+    "id": "tasks.complete",
+    "domain": "Tasks",
+    "label": "Complete task",
+    "kind": "product",
+    "operation": "tasks.setCompleted",
+    "scope": "workspace",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "structure"
+      },
+      {
+        "surface": "host",
+        "check": "security"
+      },
+      {
+        "surface": "host",
+        "check": "atomic-retry"
+      },
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "cli",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "live"
+      }
+    ]
+  },
+  {
+    "id": "tasks.reopen",
+    "domain": "Tasks",
+    "label": "Reopen task",
+    "kind": "product",
+    "operation": "tasks.setCompleted",
+    "scope": "workspace",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "structure"
+      },
+      {
+        "surface": "host",
+        "check": "security"
+      },
+      {
+        "surface": "host",
+        "check": "atomic-retry"
+      },
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "cli",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "live"
+      }
+    ]
+  },
+  {
+    "id": "tasks.delete",
+    "domain": "Tasks",
+    "label": "Delete task",
+    "kind": "product",
+    "operation": "tasks.delete",
+    "scope": "workspace",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "structure"
+      },
+      {
+        "surface": "host",
+        "check": "security"
+      },
+      {
+        "surface": "host",
+        "check": "atomic-retry"
+      },
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "cli",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "live"
+      }
+    ]
+  },
+  {
+    "id": "ui.workspace",
+    "domain": "Presentation",
+    "label": "Select workspace and navigate deep links",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.theme",
+    "domain": "Presentation",
+    "label": "Switch theme",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.layout",
+    "domain": "Presentation",
+    "label": "Select layout",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.draft",
+    "domain": "Presentation",
+    "label": "Save or discard draft",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.confirm-delete",
+    "domain": "Presentation",
+    "label": "Confirm or cancel deletion",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.shortcuts",
+    "domain": "Presentation",
+    "label": "Use Enter, Escape and Command K",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "ui.alignment",
+    "domain": "Presentation",
+    "label": "Responsive layout and control alignment",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "screenshots"
+      }
+    ]
+  },
+  {
+    "id": "host.discovery",
+    "domain": "Host",
+    "label": "Permission-filtered operation discovery",
+    "kind": "host",
+    "expectations": [
+      {
+        "surface": "http",
+        "check": "execution"
+      },
+      {
+        "surface": "mcp",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "host.lifecycle",
+    "domain": "Host",
+    "label": "Persistence, telemetry and cleanup",
+    "kind": "host",
+    "expectations": [
+      {
+        "surface": "host",
+        "check": "execution"
+      }
+    ]
+  },
+  {
+    "id": "host.request-boundary",
+    "domain": "Host",
+    "label": "Reject foreign request authority and malformed URLs",
+    "kind": "host",
+    "expectations": [
+      {
+        "surface": "http",
+        "check": "host-validation"
+      },
+      {
+        "surface": "http",
+        "check": "origin-validation"
+      },
+      {
+        "surface": "http",
+        "check": "malformed-url"
+      }
+    ]
+  },
+  {
+    "id": "host.documentation",
+    "domain": "Documentation",
+    "label": "Read API contracts and agent entry point",
+    "kind": "host",
+    "expectations": [
+      {
+        "surface": "http",
+        "check": "availability"
+      },
+      {
+        "surface": "http",
+        "check": "parity"
+      },
+      {
+        "surface": "http",
+        "check": "examples"
+      },
+      {
+        "surface": "http",
+        "check": "links"
+      },
+      {
+        "surface": "http",
+        "check": "safe-exposure"
+      },
+      {
+        "surface": "http",
+        "check": "stale-detection"
+      }
+    ]
+  },
+  {
+    "id": "ui.documentation",
+    "domain": "Documentation",
+    "label": "Browse and copy API reference",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "screenshots"
+      }
+    ]
+  },
+  {
+    "id": "ui.api-table",
+    "domain": "Documentation",
+    "label": "Browse API catalog table",
+    "kind": "local",
+    "expectations": [
+      {
+        "surface": "ui",
+        "check": "execution"
+      },
+      {
+        "surface": "ui",
+        "check": "screenshots"
+      }
+    ]
+  }
+]

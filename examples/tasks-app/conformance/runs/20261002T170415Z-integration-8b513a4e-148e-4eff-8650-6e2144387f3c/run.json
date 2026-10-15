@@ -1,0 +1,17 @@
+{
+  "run": {
+    "id": "integration-8b513a4e-148e-4eff-8650-6e2144387f3c",
+    "at": "2026-10-02T17:04:15.654Z",
+    "revision": "content-sha256:a857439acadd1ce90805d5bcf2f27469c1e101d3e5cca8508bf9ff3e8dbfc152",
+    "environment": "local-sqlite-http-cli-mcp-chromium",
+    "profile": "release",
+    "mode": "new"
+  },
+  "obligationsDigest": "d3d3739ad5d9994fc475d18a076c1d00010cac81fbe23a904dc79ce9d38af69a",
+  "inventoryDigest": "e9c1de78494cc645414f47e4bfff2148e69fef66572df19f8afbdbf946f25544",
+  "gatePassed": false,
+  "releaseConformant": false,
+  "gateIssues": [
+    "Unresolved requirement: tasks.delete / ui / execution"
+  ]
+}

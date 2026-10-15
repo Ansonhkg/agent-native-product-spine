@@ -1,0 +1,12 @@
+{
+  "testId": "ui.documentation.ui.screenshots",
+  "assertions": "All assertions completed",
+  "observed": {
+    "screenshots": [
+      "docs-dark.png",
+      "docs-light.png",
+      "docs-mobile.png"
+    ],
+    "overflow": false
+  }
+}

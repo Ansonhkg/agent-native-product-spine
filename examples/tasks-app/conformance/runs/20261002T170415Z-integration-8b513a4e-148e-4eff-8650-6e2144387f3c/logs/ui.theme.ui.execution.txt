@@ -1,0 +1,5 @@
+{
+  "testId": "ui.theme.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Light theme survives reload"
+}

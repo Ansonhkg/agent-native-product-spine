@@ -1,0 +1,24 @@
+{
+  "testId": "tasks.create.http.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 0,
+      "key": "0fc5d2b6-15e3-4088-9183-8503f9f17092",
+      "title": "Task 6a6ce68c-d9ee-48a3-98cd-c163a0dd086a"
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 1,
+      "tasks": [
+        {
+          "id": "8b80929e-0d24-4fd6-b163-512afb11dc25",
+          "title": "Task 6a6ce68c-d9ee-48a3-98cd-c163a0dd086a",
+          "completed": false,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}

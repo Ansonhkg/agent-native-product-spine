@@ -1,0 +1,30 @@
+{
+  "testId": "tasks.create.cli.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 1,
+      "key": "b71807e1-7538-4559-b7a7-4c51302da7c7",
+      "title": "Task a0a93429-04ed-4dc8-b533-a866c015853f"
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 2,
+      "tasks": [
+        {
+          "id": "c77b4c97-88ab-4f8d-8085-814c126e6999",
+          "title": "Task 021fd9e6-2b0e-4687-bbe8-141fe076b3bc",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "2d2e1ca3-4504-4d54-9c06-adf1db97b40c",
+          "title": "Task a0a93429-04ed-4dc8-b533-a866c015853f",
+          "completed": false,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}

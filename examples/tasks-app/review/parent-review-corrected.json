@@ -1,0 +1,24 @@
+{
+  "phase": "independent corrective review",
+  "checkedAt": "2026-10-02T17:15:50.566130+00:00",
+  "isolatedData": true,
+  "results": {
+    "foreignHost": {
+      "status": 403,
+      "sessionGranted": false
+    },
+    "foreignOriginDiscovery": {
+      "status": 403,
+      "sessionGranted": false
+    },
+    "malformedUrl": {
+      "status": 400,
+      "sessionGranted": false
+    },
+    "healthyAfterMalformed": {
+      "status": 200,
+      "sessionGranted": true
+    }
+  },
+  "passed": true
+}

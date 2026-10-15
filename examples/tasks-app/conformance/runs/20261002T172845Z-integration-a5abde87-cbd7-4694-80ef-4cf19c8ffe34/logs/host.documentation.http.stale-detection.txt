@@ -1,0 +1,9 @@
+{
+  "testId": "host.documentation.http.stale-detection",
+  "assertions": "All assertions completed",
+  "observed": {
+    "missing": true,
+    "staleBinding": true,
+    "staleSchema": true
+  }
+}

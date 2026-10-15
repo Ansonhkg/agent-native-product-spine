@@ -1,0 +1,9 @@
+{
+  "testId": "tasks.create.host.structure",
+  "assertions": "All assertions completed",
+  "observed": {
+    "operation": "tasks.create",
+    "binding": "/api/tasks/create",
+    "workflow": "task-mutation@1"
+  }
+}

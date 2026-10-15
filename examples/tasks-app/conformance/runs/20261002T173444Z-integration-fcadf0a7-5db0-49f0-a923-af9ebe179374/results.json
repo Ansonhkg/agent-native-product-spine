@@ -1,0 +1,551 @@
+[
+  {
+    "action": "tasks.list",
+    "surface": "host",
+    "check": "structure",
+    "status": "passed",
+    "testId": "tasks.list.host.structure",
+    "evidence": "logs/tasks.list.host.structure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.list",
+    "surface": "host",
+    "check": "security",
+    "status": "passed",
+    "testId": "tasks.list.host.security",
+    "evidence": "logs/tasks.list.host.security.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.list",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.list.http.execution",
+    "evidence": "logs/tasks.list.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.list",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.list.cli.execution",
+    "evidence": "logs/tasks.list.cli.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.list",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.list.mcp.execution",
+    "evidence": "logs/tasks.list.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.list",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.list.ui.execution",
+    "evidence": "logs/tasks.list.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "host",
+    "check": "structure",
+    "status": "passed",
+    "testId": "tasks.create.host.structure",
+    "evidence": "logs/tasks.create.host.structure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "host",
+    "check": "security",
+    "status": "passed",
+    "testId": "tasks.create.host.security",
+    "evidence": "logs/tasks.create.host.security.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "host",
+    "check": "atomic-retry",
+    "status": "passed",
+    "testId": "tasks.create.host.atomic-retry",
+    "evidence": "logs/tasks.create.host.atomic-retry.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.create.http.execution",
+    "evidence": "logs/tasks.create.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.create.cli.execution",
+    "evidence": "logs/tasks.create.cli.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.create.mcp.execution",
+    "evidence": "logs/tasks.create.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.create.ui.execution",
+    "evidence": "logs/tasks.create.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.create",
+    "surface": "ui",
+    "check": "live",
+    "status": "passed",
+    "testId": "tasks.create.ui.live",
+    "evidence": "logs/tasks.create.ui.live.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "host",
+    "check": "structure",
+    "status": "passed",
+    "testId": "tasks.complete.host.structure",
+    "evidence": "logs/tasks.complete.host.structure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "host",
+    "check": "security",
+    "status": "passed",
+    "testId": "tasks.complete.host.security",
+    "evidence": "logs/tasks.complete.host.security.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "host",
+    "check": "atomic-retry",
+    "status": "passed",
+    "testId": "tasks.complete.host.atomic-retry",
+    "evidence": "logs/tasks.complete.host.atomic-retry.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.complete.http.execution",
+    "evidence": "logs/tasks.complete.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.complete.cli.execution",
+    "evidence": "logs/tasks.complete.cli.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.complete.mcp.execution",
+    "evidence": "logs/tasks.complete.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.complete.ui.execution",
+    "evidence": "logs/tasks.complete.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.complete",
+    "surface": "ui",
+    "check": "live",
+    "status": "passed",
+    "testId": "tasks.complete.ui.live",
+    "evidence": "logs/tasks.complete.ui.live.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "host",
+    "check": "structure",
+    "status": "passed",
+    "testId": "tasks.reopen.host.structure",
+    "evidence": "logs/tasks.reopen.host.structure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "host",
+    "check": "security",
+    "status": "passed",
+    "testId": "tasks.reopen.host.security",
+    "evidence": "logs/tasks.reopen.host.security.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "host",
+    "check": "atomic-retry",
+    "status": "passed",
+    "testId": "tasks.reopen.host.atomic-retry",
+    "evidence": "logs/tasks.reopen.host.atomic-retry.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.reopen.http.execution",
+    "evidence": "logs/tasks.reopen.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.reopen.cli.execution",
+    "evidence": "logs/tasks.reopen.cli.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.reopen.mcp.execution",
+    "evidence": "logs/tasks.reopen.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.reopen.ui.execution",
+    "evidence": "logs/tasks.reopen.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.reopen",
+    "surface": "ui",
+    "check": "live",
+    "status": "passed",
+    "testId": "tasks.reopen.ui.live",
+    "evidence": "logs/tasks.reopen.ui.live.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "host",
+    "check": "structure",
+    "status": "passed",
+    "testId": "tasks.delete.host.structure",
+    "evidence": "logs/tasks.delete.host.structure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "host",
+    "check": "security",
+    "status": "passed",
+    "testId": "tasks.delete.host.security",
+    "evidence": "logs/tasks.delete.host.security.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "host",
+    "check": "atomic-retry",
+    "status": "passed",
+    "testId": "tasks.delete.host.atomic-retry",
+    "evidence": "logs/tasks.delete.host.atomic-retry.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.delete.http.execution",
+    "evidence": "logs/tasks.delete.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.delete.cli.execution",
+    "evidence": "logs/tasks.delete.cli.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.delete.mcp.execution",
+    "evidence": "logs/tasks.delete.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "tasks.delete.ui.execution",
+    "evidence": "logs/tasks.delete.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "tasks.delete",
+    "surface": "ui",
+    "check": "live",
+    "status": "passed",
+    "testId": "tasks.delete.ui.live",
+    "evidence": "logs/tasks.delete.ui.live.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.workspace",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.workspace.ui.execution",
+    "evidence": "logs/ui.workspace.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.theme",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.theme.ui.execution",
+    "evidence": "logs/ui.theme.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.layout",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.layout.ui.execution",
+    "evidence": "logs/ui.layout.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.draft",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.draft.ui.execution",
+    "evidence": "logs/ui.draft.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.confirm-delete",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.confirm-delete.ui.execution",
+    "evidence": "logs/ui.confirm-delete.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.shortcuts",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.shortcuts.ui.execution",
+    "evidence": "logs/ui.shortcuts.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.alignment",
+    "surface": "ui",
+    "check": "screenshots",
+    "status": "passed",
+    "testId": "ui.alignment.ui.screenshots",
+    "evidence": "evidence/screenshots.html",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.discovery",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "host.discovery.http.execution",
+    "evidence": "logs/host.discovery.http.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.discovery",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "host.discovery.mcp.execution",
+    "evidence": "logs/host.discovery.mcp.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.lifecycle",
+    "surface": "host",
+    "check": "execution",
+    "status": "passed",
+    "testId": "host.lifecycle.host.execution",
+    "evidence": "logs/host.lifecycle.host.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.request-boundary",
+    "surface": "http",
+    "check": "host-validation",
+    "status": "passed",
+    "testId": "host.request-boundary.http.host-validation",
+    "evidence": "logs/host.request-boundary.http.host-validation.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.request-boundary",
+    "surface": "http",
+    "check": "origin-validation",
+    "status": "passed",
+    "testId": "host.request-boundary.http.origin-validation",
+    "evidence": "logs/host.request-boundary.http.origin-validation.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.request-boundary",
+    "surface": "http",
+    "check": "malformed-url",
+    "status": "passed",
+    "testId": "host.request-boundary.http.malformed-url",
+    "evidence": "logs/host.request-boundary.http.malformed-url.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "availability",
+    "status": "passed",
+    "testId": "host.documentation.http.availability",
+    "evidence": "logs/host.documentation.http.availability.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "parity",
+    "status": "passed",
+    "testId": "host.documentation.http.parity",
+    "evidence": "logs/host.documentation.http.parity.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "examples",
+    "status": "passed",
+    "testId": "host.documentation.http.examples",
+    "evidence": "logs/host.documentation.http.examples.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "links",
+    "status": "passed",
+    "testId": "host.documentation.http.links",
+    "evidence": "logs/host.documentation.http.links.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "safe-exposure",
+    "status": "passed",
+    "testId": "host.documentation.http.safe-exposure",
+    "evidence": "logs/host.documentation.http.safe-exposure.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "host.documentation",
+    "surface": "http",
+    "check": "stale-detection",
+    "status": "passed",
+    "testId": "host.documentation.http.stale-detection",
+    "evidence": "logs/host.documentation.http.stale-detection.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.documentation",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.documentation.ui.execution",
+    "evidence": "logs/ui.documentation.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.documentation",
+    "surface": "ui",
+    "check": "screenshots",
+    "status": "passed",
+    "testId": "ui.documentation.ui.screenshots",
+    "evidence": "logs/ui.documentation.ui.screenshots.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.api-table",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "ui.api-table.ui.execution",
+    "evidence": "logs/ui.api-table.ui.execution.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  },
+  {
+    "action": "ui.api-table",
+    "surface": "ui",
+    "check": "screenshots",
+    "status": "passed",
+    "testId": "ui.api-table.ui.screenshots",
+    "evidence": "logs/ui.api-table.ui.screenshots.txt",
+    "message": "Assertions passed against the running host and local persistence."
+  }
+]

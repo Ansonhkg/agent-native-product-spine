@@ -1,0 +1,713 @@
+[
+  {
+    "action": "items.list",
+    "surface": "ui",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.list.ui.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "ui",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.list.ui.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.list.ui.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "ui",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.list.ui.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "http",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.list.http.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "http",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.list.http.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.list.http.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "http",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.list.http.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "cli",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.list.cli.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "cli",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.list.cli.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.list.cli.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "cli",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.list.cli.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "mcp",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.list.mcp.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "mcp",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.list.mcp.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.list.mcp.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.list",
+    "surface": "mcp",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.list.mcp.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "ui",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.create.ui.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "http",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.create.http.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "cli",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.create.cli.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.create",
+    "surface": "mcp",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.create.mcp.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "ui",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.delete.ui.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative resolved scope-denial assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "http",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.delete.http.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "atomic-commit",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "cli",
+    "check": "live-update",
+    "status": "passed",
+    "testId": "illustrative.items.delete.cli.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "contract",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "wiring",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "execution",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "scope-denial",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "atomic-commit",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.atomic-commit",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "items.delete",
+    "surface": "mcp",
+    "check": "live-update",
+    "status": "unrun",
+    "testId": "illustrative.items.delete.mcp.live-update",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative missing executable proof."
+  },
+  {
+    "action": "exports.download",
+    "surface": "ui",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.exports.download.ui.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "ui",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.exports.download.ui.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.exports.download.ui.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "ui",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.exports.download.ui.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "http",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.exports.download.http.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "http",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.exports.download.http.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "http",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.exports.download.http.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "http",
+    "check": "scope-denial",
+    "status": "passed",
+    "testId": "illustrative.exports.download.http.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "exports.download",
+    "surface": "cli",
+    "check": "contract",
+    "status": "blocked",
+    "testId": "illustrative.exports.download.cli.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative unavailable runtime."
+  },
+  {
+    "action": "exports.download",
+    "surface": "cli",
+    "check": "wiring",
+    "status": "blocked",
+    "testId": "illustrative.exports.download.cli.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative unavailable runtime."
+  },
+  {
+    "action": "exports.download",
+    "surface": "cli",
+    "check": "execution",
+    "status": "blocked",
+    "testId": "illustrative.exports.download.cli.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative unavailable runtime."
+  },
+  {
+    "action": "exports.download",
+    "surface": "cli",
+    "check": "scope-denial",
+    "status": "blocked",
+    "testId": "illustrative.exports.download.cli.scope-denial",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative unavailable runtime."
+  },
+  {
+    "action": "appearance.theme",
+    "surface": "ui",
+    "check": "contract",
+    "status": "passed",
+    "testId": "illustrative.appearance.theme.ui.contract",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "appearance.theme",
+    "surface": "ui",
+    "check": "wiring",
+    "status": "passed",
+    "testId": "illustrative.appearance.theme.ui.wiring",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  },
+  {
+    "action": "appearance.theme",
+    "surface": "ui",
+    "check": "execution",
+    "status": "passed",
+    "testId": "illustrative.appearance.theme.ui.execution",
+    "evidence": "logs/illustrative.txt",
+    "message": "Illustrative successful assertion."
+  }
+]

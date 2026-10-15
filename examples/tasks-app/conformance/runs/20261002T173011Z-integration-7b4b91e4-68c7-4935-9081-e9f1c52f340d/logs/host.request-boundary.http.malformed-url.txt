@@ -1,0 +1,26 @@
+{
+  "testId": "host.request-boundary.http.malformed-url",
+  "assertions": "All assertions completed",
+  "observed": [
+    {
+      "path": "/%",
+      "status": 400,
+      "hostStillRunning": true
+    },
+    {
+      "path": "/%GG",
+      "status": 400,
+      "hostStillRunning": true
+    },
+    {
+      "path": "/%E0%A4%A",
+      "status": 400,
+      "hostStillRunning": true
+    },
+    {
+      "path": "/api/%",
+      "status": 400,
+      "hostStillRunning": true
+    }
+  ]
+}

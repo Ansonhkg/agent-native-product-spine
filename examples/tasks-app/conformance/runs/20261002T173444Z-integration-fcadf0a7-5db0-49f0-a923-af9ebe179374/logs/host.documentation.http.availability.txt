@@ -1,0 +1,7 @@
+{
+  "testId": "host.documentation.http.availability",
+  "assertions": "All assertions completed",
+  "observed": {
+    "routes": 4
+  }
+}

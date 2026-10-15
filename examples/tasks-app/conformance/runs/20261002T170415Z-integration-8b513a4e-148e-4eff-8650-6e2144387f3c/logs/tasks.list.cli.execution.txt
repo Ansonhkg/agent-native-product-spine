@@ -1,0 +1,14 @@
+{
+  "testId": "tasks.list.cli.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal"
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 0,
+      "tasks": []
+    }
+  }
+}

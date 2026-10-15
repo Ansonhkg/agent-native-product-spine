@@ -1,0 +1,36 @@
+{
+  "testId": "host.request-boundary.http.origin-validation",
+  "assertions": "All assertions completed",
+  "observed": [
+    {
+      "path": "/",
+      "origin": "http://untrusted.invalid:4329",
+      "status": 403
+    },
+    {
+      "path": "/",
+      "origin": "null",
+      "status": 403
+    },
+    {
+      "path": "/api/discover?workspace=personal",
+      "origin": "http://untrusted.invalid:4329",
+      "status": 403
+    },
+    {
+      "path": "/api/discover?workspace=personal",
+      "origin": "null",
+      "status": 403
+    },
+    {
+      "path": "/api/tasks/list",
+      "origin": "http://untrusted.invalid:4329",
+      "status": 403
+    },
+    {
+      "path": "/api/tasks/list",
+      "origin": "null",
+      "status": 403
+    }
+  ]
+}

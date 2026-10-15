@@ -1,0 +1,13 @@
+{
+  "testId": "host.discovery.http.execution",
+  "assertions": "All assertions completed",
+  "observed": [
+    {
+      "id": "tasks.list",
+      "scope": "workspace",
+      "http": "/api/tasks/list",
+      "cli": "list",
+      "mcp": "tasks_list"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "testId": "host.request-boundary.http.host-validation",
+  "assertions": "All assertions completed",
+  "observed": [
+    {
+      "path": "/",
+      "status": 403,
+      "issuedSessionCookie": false
+    },
+    {
+      "path": "/api/discover?workspace=personal",
+      "status": 403,
+      "issuedSessionCookie": false
+    },
+    {
+      "path": "/api/tasks/create",
+      "status": 403,
+      "issuedSessionCookie": false
+    }
+  ]
+}

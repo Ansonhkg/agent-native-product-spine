@@ -1,0 +1,8 @@
+{
+  "testId": "host.documentation.http.parity",
+  "assertions": "All assertions completed",
+  "observed": {
+    "runtimeDiscovery": 4,
+    "mcpTools": 4
+  }
+}

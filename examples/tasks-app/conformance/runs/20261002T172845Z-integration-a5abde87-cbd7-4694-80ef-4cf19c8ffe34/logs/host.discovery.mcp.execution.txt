@@ -1,0 +1,7 @@
+{
+  "testId": "host.discovery.mcp.execution",
+  "assertions": "All assertions completed",
+  "observed": [
+    "tasks_list"
+  ]
+}

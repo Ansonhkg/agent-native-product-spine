@@ -1,0 +1,5 @@
+{
+  "testId": "ui.confirm-delete.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": "Cancelled deletion leaves task intact"
+}

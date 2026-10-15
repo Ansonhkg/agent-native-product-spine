@@ -1,0 +1,36 @@
+{
+  "phase": "Independent review of fresh-context first pass",
+  "originalReport": "conformance/runs/20261002T171026Z-integration-29192a32-0c41-43c6-adb5-8419831b4466",
+  "declaredChecks": 48,
+  "passedDeclaredChecks": 48,
+  "originalRevision": "content-sha256:1ff8fb9bf465483ac856a3b802652949a7d6189fee903f647ba97bd3d32030f9",
+  "sourceHashes": {
+    "src/contracts.ts": "931bf55f09528414c0db1d1ca0a5e7a79390e323d8d5080baccef845c4518290",
+    "src/mcp.ts": "b00e36309a6cd23d507989d288cf2216acccde636de46be6cfc4747ef30dea45",
+    "src/cli.ts": "3964472cff7e5aa3ba468b447089bead7d146812dff9d18d4a2551765faafe92",
+    "src/client.ts": "482b55cea5b8eb245f45c05b6d34a712284594239ae822aefc3d32fb23ebe5fe",
+    "src/host.ts": "e69b623c13996cec691dfb6b1572ad5997c6b4ba7888262861098f4f3dc727bf",
+    "src/server.ts": "d75e7b0502d209a401467f10d1fd3a449678afb6c864f93af2ec6ac0f123760b"
+  },
+  "checks": [
+    {
+      "id": "host.untrusted-host-bootstrap",
+      "expected": "Reject foreign Host without granting a session",
+      "status": "failed",
+      "observed": {
+        "status": 200,
+        "issuedSessionCookie": true
+      }
+    },
+    {
+      "id": "host.malformed-url",
+      "expected": "Return a client error and keep the host running",
+      "status": "failed",
+      "observed": {
+        "response": "connection closed",
+        "processExit": 1
+      }
+    }
+  ],
+  "note": "Tests used an isolated local database. No tokens are logged. The retained demo process was untouched."
+}

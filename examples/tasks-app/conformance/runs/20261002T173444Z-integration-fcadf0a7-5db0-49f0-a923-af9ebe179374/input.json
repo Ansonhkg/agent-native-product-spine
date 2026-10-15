@@ -1,0 +1,453 @@
+{
+  "run": {
+    "id": "integration-fcadf0a7-5db0-49f0-a923-af9ebe179374",
+    "at": "2026-10-02T17:34:44.650Z",
+    "revision": "content-sha256:0b48426eb92851359d14cf69d436d8da9a0ad5b9b6fb142df729a9b25397d0eb",
+    "environment": "local-sqlite-http-cli-mcp-chromium",
+    "profile": "release",
+    "mode": "new"
+  },
+  "actions": [
+    {
+      "id": "tasks.list",
+      "domain": "Tasks",
+      "label": "List tasks",
+      "kind": "product",
+      "operation": "tasks.list",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "structure"
+        },
+        {
+          "surface": "host",
+          "check": "security"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "tasks.create",
+      "domain": "Tasks",
+      "label": "Create task",
+      "kind": "product",
+      "operation": "tasks.create",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "structure"
+        },
+        {
+          "surface": "host",
+          "check": "security"
+        },
+        {
+          "surface": "host",
+          "check": "atomic-retry"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "live"
+        }
+      ]
+    },
+    {
+      "id": "tasks.complete",
+      "domain": "Tasks",
+      "label": "Complete task",
+      "kind": "product",
+      "operation": "tasks.setCompleted",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "structure"
+        },
+        {
+          "surface": "host",
+          "check": "security"
+        },
+        {
+          "surface": "host",
+          "check": "atomic-retry"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "live"
+        }
+      ]
+    },
+    {
+      "id": "tasks.reopen",
+      "domain": "Tasks",
+      "label": "Reopen task",
+      "kind": "product",
+      "operation": "tasks.setCompleted",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "structure"
+        },
+        {
+          "surface": "host",
+          "check": "security"
+        },
+        {
+          "surface": "host",
+          "check": "atomic-retry"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "live"
+        }
+      ]
+    },
+    {
+      "id": "tasks.delete",
+      "domain": "Tasks",
+      "label": "Delete task",
+      "kind": "product",
+      "operation": "tasks.delete",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "structure"
+        },
+        {
+          "surface": "host",
+          "check": "security"
+        },
+        {
+          "surface": "host",
+          "check": "atomic-retry"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "live"
+        }
+      ]
+    },
+    {
+      "id": "ui.workspace",
+      "domain": "Presentation",
+      "label": "Select workspace and navigate deep links",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.theme",
+      "domain": "Presentation",
+      "label": "Switch theme",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.layout",
+      "domain": "Presentation",
+      "label": "Select layout",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.draft",
+      "domain": "Presentation",
+      "label": "Save or discard draft",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.confirm-delete",
+      "domain": "Presentation",
+      "label": "Confirm or cancel deletion",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.shortcuts",
+      "domain": "Presentation",
+      "label": "Use Enter, Escape and Command K",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "ui.alignment",
+      "domain": "Presentation",
+      "label": "Responsive layout and control alignment",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "screenshots"
+        }
+      ]
+    },
+    {
+      "id": "host.discovery",
+      "domain": "Host",
+      "label": "Permission-filtered operation discovery",
+      "kind": "host",
+      "expectations": [
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "host.lifecycle",
+      "domain": "Host",
+      "label": "Persistence, telemetry and cleanup",
+      "kind": "host",
+      "expectations": [
+        {
+          "surface": "host",
+          "check": "execution"
+        }
+      ]
+    },
+    {
+      "id": "host.request-boundary",
+      "domain": "Host",
+      "label": "Reject foreign request authority and malformed URLs",
+      "kind": "host",
+      "expectations": [
+        {
+          "surface": "http",
+          "check": "host-validation"
+        },
+        {
+          "surface": "http",
+          "check": "origin-validation"
+        },
+        {
+          "surface": "http",
+          "check": "malformed-url"
+        }
+      ]
+    },
+    {
+      "id": "host.documentation",
+      "domain": "Documentation",
+      "label": "Read API contracts and agent entry point",
+      "kind": "host",
+      "expectations": [
+        {
+          "surface": "http",
+          "check": "availability"
+        },
+        {
+          "surface": "http",
+          "check": "parity"
+        },
+        {
+          "surface": "http",
+          "check": "examples"
+        },
+        {
+          "surface": "http",
+          "check": "links"
+        },
+        {
+          "surface": "http",
+          "check": "safe-exposure"
+        },
+        {
+          "surface": "http",
+          "check": "stale-detection"
+        }
+      ]
+    },
+    {
+      "id": "ui.documentation",
+      "domain": "Documentation",
+      "label": "Browse and copy API reference",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "screenshots"
+        }
+      ]
+    },
+    {
+      "id": "ui.api-table",
+      "domain": "Documentation",
+      "label": "Browse API catalog table",
+      "kind": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "screenshots"
+        }
+      ]
+    }
+  ],
+  "baseline": [],
+  "obligationsDigest": "99b87573f0842e1f225d403fa863b00204aa283925215c3694c69013d8b262bf",
+  "inventoryDigest": "410048229920f1060e675f01df16de9b4b91215cb86c73048061d2f0bc8e9fb3",
+  "gatePassed": true,
+  "releaseConformant": true,
+  "gateIssues": [],
+  "history": [
+    {
+      "id": "integration-7b4b91e4-68c7-4935-9081-e9f1c52f340d",
+      "at": "2026-10-02T17:30:11.034Z",
+      "directory": "20261002T173011Z-integration-7b4b91e4-68c7-4935-9081-e9f1c52f340d"
+    },
+    {
+      "id": "integration-a5abde87-cbd7-4694-80ef-4cf19c8ffe34",
+      "at": "2026-10-02T17:28:45.284Z",
+      "directory": "20261002T172845Z-integration-a5abde87-cbd7-4694-80ef-4cf19c8ffe34"
+    },
+    {
+      "id": "integration-55004118-25bd-4523-95c6-08e5fbedb867",
+      "at": "2026-10-02T17:14:03.848Z",
+      "directory": "20261002T171403Z-integration-55004118-25bd-4523-95c6-08e5fbedb867"
+    },
+    {
+      "id": "integration-29192a32-0c41-43c6-adb5-8419831b4466",
+      "at": "2026-10-02T17:10:26.246Z",
+      "directory": "20261002T171026Z-integration-29192a32-0c41-43c6-adb5-8419831b4466"
+    },
+    {
+      "id": "integration-d70690db-0571-4730-97a6-c7b45bd5f252",
+      "at": "2026-10-02T17:08:52.513Z",
+      "directory": "20261002T170852Z-integration-d70690db-0571-4730-97a6-c7b45bd5f252"
+    },
+    {
+      "id": "integration-8b513a4e-148e-4eff-8650-6e2144387f3c",
+      "at": "2026-10-02T17:04:15.654Z",
+      "directory": "20261002T170415Z-integration-8b513a4e-148e-4eff-8650-6e2144387f3c"
+    }
+  ],
+  "comparison": {
+    "comparable": false,
+    "changes": [],
+    "message": "Previous run is not comparable: inventory, obligations, environment, or profile changed."
+  }
+}

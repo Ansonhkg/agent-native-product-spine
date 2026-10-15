@@ -1,0 +1,5 @@
+node_modules/
+.browsers/
+data/
+verification/data-*/
+dist/

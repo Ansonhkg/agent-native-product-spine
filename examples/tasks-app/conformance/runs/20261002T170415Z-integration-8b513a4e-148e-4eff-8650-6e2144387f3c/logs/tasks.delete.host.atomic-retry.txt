@@ -1,0 +1,15 @@
+{
+  "testId": "tasks.delete.host.atomic-retry",
+  "assertions": "All assertions completed",
+  "observed": {
+    "before": 35,
+    "after": 36,
+    "counts": {
+      "audit": 39,
+      "receipts": 39
+    },
+    "rollback": true,
+    "replay": true,
+    "cancellation": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "testId": "tasks.delete.host.structure",
+  "assertions": "All assertions completed",
+  "observed": {
+    "operation": "tasks.delete",
+    "binding": "/api/tasks/delete",
+    "workflow": "task-mutation@1"
+  }
+}

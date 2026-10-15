@@ -1,0 +1,5 @@
+{
+  "testId": "tasks.create.ui.live",
+  "assertions": "All assertions completed",
+  "observed": "CLI creation appeared without page refresh"
+}

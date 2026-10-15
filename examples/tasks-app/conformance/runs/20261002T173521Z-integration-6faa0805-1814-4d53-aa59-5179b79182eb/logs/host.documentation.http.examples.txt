@@ -1,0 +1,12 @@
+{
+  "testId": "host.documentation.http.examples",
+  "assertions": "All assertions completed",
+  "observed": {
+    "http": true,
+    "cli": true,
+    "mcp": true,
+    "scopeDenied": true,
+    "replay": true,
+    "conflict": true
+  }
+}

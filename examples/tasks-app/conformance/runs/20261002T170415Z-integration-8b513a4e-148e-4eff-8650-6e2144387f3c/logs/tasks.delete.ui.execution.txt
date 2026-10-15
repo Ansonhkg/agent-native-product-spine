@@ -1,0 +1,6 @@
+Error: locator.waitFor: Error: strict mode violation: getByText('UI task 8e580f54-1d12-4bf6-85fd-234409c51dc8', { exact: true }) resolved to 2 elements:
+    1) <div class="task-title">UI task 8e580f54-1d12-4bf6-85fd-234409c51dc8</div> aka getByRole('main').getByText('UI task 8e580f54-1d12-4bf6-')
+    2) <p>UI task 8e580f54-1d12-4bf6-85fd-234409c51dc8</p> aka getByLabel('Delete this task?').getByText('UI task 8e580f54-1d12-4bf6-')
+
+Call log:
+[2m  - waiting for getByText('UI task 8e580f54-1d12-4bf6-85fd-234409c51dc8', { exact: true }) to be hidden[22m

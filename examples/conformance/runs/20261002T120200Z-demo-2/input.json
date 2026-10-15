@@ -1,0 +1,425 @@
+{
+  "run": {
+    "id": "demo-2",
+    "at": "2026-10-02T12:02:00Z",
+    "revision": "illustrative-revision-2",
+    "environment": "illustrative-example",
+    "profile": "core-product",
+    "mode": "new",
+    "illustrative": true
+  },
+  "actions": [
+    {
+      "id": "items.list",
+      "label": "List items",
+      "domain": "Items",
+      "kind": "product",
+      "operation": "items.list",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "contract"
+        },
+        {
+          "surface": "ui",
+          "check": "wiring"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "http",
+          "check": "contract"
+        },
+        {
+          "surface": "http",
+          "check": "wiring"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "http",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "cli",
+          "check": "contract"
+        },
+        {
+          "surface": "cli",
+          "check": "wiring"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "mcp",
+          "check": "contract"
+        },
+        {
+          "surface": "mcp",
+          "check": "wiring"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "scope-denial"
+        }
+      ]
+    },
+    {
+      "id": "items.create",
+      "label": "Create item",
+      "domain": "Items",
+      "kind": "product",
+      "operation": "items.create",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "contract"
+        },
+        {
+          "surface": "ui",
+          "check": "wiring"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "ui",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "ui",
+          "check": "live-update"
+        },
+        {
+          "surface": "http",
+          "check": "contract"
+        },
+        {
+          "surface": "http",
+          "check": "wiring"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "http",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "http",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "http",
+          "check": "live-update"
+        },
+        {
+          "surface": "cli",
+          "check": "contract"
+        },
+        {
+          "surface": "cli",
+          "check": "wiring"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "cli",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "cli",
+          "check": "live-update"
+        },
+        {
+          "surface": "mcp",
+          "check": "contract"
+        },
+        {
+          "surface": "mcp",
+          "check": "wiring"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "mcp",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "mcp",
+          "check": "live-update"
+        }
+      ]
+    },
+    {
+      "id": "items.delete",
+      "label": "Delete item",
+      "domain": "Items",
+      "kind": "product",
+      "operation": "items.delete",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "contract"
+        },
+        {
+          "surface": "ui",
+          "check": "wiring"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "ui",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "ui",
+          "check": "live-update"
+        },
+        {
+          "surface": "http",
+          "check": "contract"
+        },
+        {
+          "surface": "http",
+          "check": "wiring"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "http",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "http",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "http",
+          "check": "live-update"
+        },
+        {
+          "surface": "cli",
+          "check": "contract"
+        },
+        {
+          "surface": "cli",
+          "check": "wiring"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "cli",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "cli",
+          "check": "live-update"
+        },
+        {
+          "surface": "mcp",
+          "check": "contract"
+        },
+        {
+          "surface": "mcp",
+          "check": "wiring"
+        },
+        {
+          "surface": "mcp",
+          "check": "execution"
+        },
+        {
+          "surface": "mcp",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "mcp",
+          "check": "atomic-commit"
+        },
+        {
+          "surface": "mcp",
+          "check": "live-update"
+        }
+      ]
+    },
+    {
+      "id": "exports.download",
+      "label": "Download export",
+      "domain": "Exports",
+      "kind": "product",
+      "operation": "exports.download",
+      "scope": "workspace",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "contract"
+        },
+        {
+          "surface": "ui",
+          "check": "wiring"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        },
+        {
+          "surface": "ui",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "http",
+          "check": "contract"
+        },
+        {
+          "surface": "http",
+          "check": "wiring"
+        },
+        {
+          "surface": "http",
+          "check": "execution"
+        },
+        {
+          "surface": "http",
+          "check": "scope-denial"
+        },
+        {
+          "surface": "cli",
+          "check": "contract"
+        },
+        {
+          "surface": "cli",
+          "check": "wiring"
+        },
+        {
+          "surface": "cli",
+          "check": "execution"
+        },
+        {
+          "surface": "cli",
+          "check": "scope-denial"
+        }
+      ]
+    },
+    {
+      "id": "appearance.theme",
+      "label": "Change appearance",
+      "domain": "Preferences",
+      "kind": "local",
+      "operation": null,
+      "scope": "local",
+      "expectations": [
+        {
+          "surface": "ui",
+          "check": "contract"
+        },
+        {
+          "surface": "ui",
+          "check": "wiring"
+        },
+        {
+          "surface": "ui",
+          "check": "execution"
+        }
+      ]
+    }
+  ],
+  "baseline": [],
+  "obligationsDigest": "64f3f197bab8ee0308d97484558a0fad0301e6591758ff63c55aa41162fb1a3f",
+  "inventoryDigest": "3fc836e3d41d2bfca9e9f9f560e2cd82f608c8322c6c2fc6c30397d104f6cc38",
+  "gatePassed": false,
+  "releaseConformant": false,
+  "gateIssues": [
+    "Unresolved requirement: exports.download / cli / contract",
+    "Unresolved requirement: exports.download / cli / execution",
+    "Unresolved requirement: exports.download / cli / scope-denial",
+    "Unresolved requirement: exports.download / cli / wiring",
+    "Unresolved requirement: items.delete / http / scope-denial",
+    "Unresolved requirement: items.delete / mcp / atomic-commit",
+    "Unresolved requirement: items.delete / mcp / contract",
+    "Unresolved requirement: items.delete / mcp / execution",
+    "Unresolved requirement: items.delete / mcp / live-update",
+    "Unresolved requirement: items.delete / mcp / scope-denial",
+    "Unresolved requirement: items.delete / mcp / wiring",
+    "Illustrative data cannot pass a production gate."
+  ],
+  "history": [
+    {
+      "id": "demo-1",
+      "at": "2026-10-02T12:01:00Z",
+      "directory": "20261002T120100Z-demo-1"
+    }
+  ],
+  "comparison": {
+    "comparable": true,
+    "changes": [
+      {
+        "action": "items.create",
+        "surface": "cli",
+        "check": "live-update",
+        "before": "failed",
+        "after": "passed"
+      },
+      {
+        "action": "items.delete",
+        "surface": "http",
+        "check": "scope-denial",
+        "before": "passed",
+        "after": "failed"
+      }
+    ],
+    "message": "Compared with demo-1"
+  }
+}

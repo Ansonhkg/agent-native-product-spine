@@ -1,0 +1,7 @@
+{
+  "testId": "tasks.list.ui.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "count": 15
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "testId": "tasks.delete.cli.execution",
+  "assertions": "All assertions completed",
+  "observed": {
+    "input": {
+      "workspace": "personal",
+      "revision": 43,
+      "key": "a8170f03-b6c6-4f51-8ab3-260e469c331f",
+      "id": "32f2d047-a757-4545-87b7-24054371ac08"
+    },
+    "result": {
+      "workspace": "personal",
+      "revision": 44,
+      "tasks": [
+        {
+          "id": "8b80929e-0d24-4fd6-b163-512afb11dc25",
+          "title": "Task 6a6ce68c-d9ee-48a3-98cd-c163a0dd086a",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "d881fe39-9ca0-4cee-bc04-8272d8d9c8d7",
+          "title": "Task 2e895687-1bbc-4cd6-988a-6eb4eb2dfa1a",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "d2d27a1f-74a3-40e8-9070-d30c12e63247",
+          "title": "Task 455e0160-ef5a-4af6-9b2f-db89f2fe9276",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "c9355ac9-fd28-4399-9f7a-ec37b69e3da6",
+          "title": "Task fa109ab9-dc58-406d-88d3-5e9e707c3dab",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "5d577aa0-d105-4dc3-94f3-1f43c4e0319a",
+          "title": "Task 9f7e4e99-9cdd-4ea1-8f05-da1c3caf64c0",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "058cbf9a-984b-46e7-b3ed-9ac2186db4f3",
+          "title": "Task c0ef73fa-f22a-4e91-9566-9c8e28bd7754",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "01b530e0-ff7e-47fb-a6a2-309830cc038a",
+          "title": "Seed d3d0b44a-3ef6-408f-b81d-e9f40e6a8e48",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "c63155bf-9217-42ed-b94c-a10cf3ae8602",
+          "title": "Seed ac42409e-a36f-488a-a2d3-50c8672fa84d",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "7fad18b2-1526-49da-bd3d-7021adbc2a27",
+          "title": "Seed 2228011b-95ea-4e43-9ad0-556ec1dea58a",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "90342a14-cb53-4fac-b083-8e067552571d",
+          "title": "Seed a3777c61-6a45-4df7-b537-77933d98c49b",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "270153b7-f3b9-437f-ae17-96b9375b3a17",
+          "title": "Seed e9a2c446-13d0-43e4-8506-5a204ba8da55",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "53c2a204-86c4-4b10-ae8f-52e109b1cf5c",
+          "title": "Seed a778fd6b-b953-4739-bff2-5ebd1476fba7",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "371e8c0e-ea57-4ff7-bea0-f76fb18a586c",
+          "title": "Seed 33f6567b-445e-4959-9f71-b63530bdf4a7",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "ab6cef1e-26df-4cbd-831a-82081e429554",
+          "title": "Seed 70ad18db-f8ff-4df6-be80-204f0b6f86d4",
+          "completed": true,
+          "workspace": "personal"
+        },
+        {
+          "id": "6d5fc331-e65d-451a-9718-046e24b11953",
+          "title": "Seed 4d575a69-d454-4024-8d01-c175d50e48ce",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "94c231ea-7c6b-4d77-afa6-9db60b116998",
+          "title": "Seed 377e3a7b-2d52-48fc-a7e8-3ff685f1b128",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "1a7e2b37-7d54-4e39-a891-7b6c77888c71",
+          "title": "Seed d0203fa4-9438-49bf-ab3d-c59b0fd3a1d1",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "6a4f46d3-989b-4c4f-8c40-a2d0c6791692",
+          "title": "Seed 2c52cd9d-f563-4621-9322-1ae2cd627b73",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "308f88f5-7594-4eac-b1ea-998759b8ab8a",
+          "title": "Seed 3c410df8-9e5f-4316-b587-30ffb7376efd",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "54f502cf-e8cf-4755-9276-f7336a94f614",
+          "title": "Seed 8469d9d3-6c84-4fa4-a608-033ead0567f1",
+          "completed": false,
+          "workspace": "personal"
+        },
+        {
+          "id": "aa6470ba-b126-4107-9410-f10816305e20",
+          "title": "Seed e50c2089-4044-4064-9581-ea323e0fa7d8",
+          "completed": false,
+          "workspace": "personal"
+        }
+      ]
+    }
+  }
+}
