@@ -1,5 +1,7 @@
 # Agent-Native Product Spine: an app architecture skill for Claude Code, Codex, Cursor and Grok
 
+<p align="center"><img src="media/agent-native-spine.svg" width="560" alt="Agent-Native Spine animation: each operation gets an input and a scope, is served on App, HTTP, CLI and MCP, and people and agents call the same operation"></p>
+
 **Agent-Native Product Spine** is an open-source agent skill, `app-architecture-rules`, that teaches coding agents to build and review **agent-native applications**. You define each product action once. The web UI, HTTP API, CLI and MCP tools then call the same operation, with the same validation, permissions and scope.
 
 It packages [Agent-Native Spine](https://anson.sh/work/agent-native-spine/) (formerly Product Spine), the architecture [Anson Cheung](https://anson.sh/) uses across his products. Read the overview, the instructions and every file on the **[app-architecture-rules skill page on anson.sh](https://anson.sh/agent-skills/app-architecture-rules/)**.
