@@ -6,7 +6,9 @@
 
 It packages [Agent-Native Spine](https://anson.sh/work/agent-native-spine/) (formerly Product Spine), the architecture [Anson Cheung](https://anson.sh/) uses across his products. Read the overview, the instructions and every file on the **[app-architecture-rules skill page on anson.sh](https://anson.sh/agent-skills/app-architecture-rules/)**.
 
-![Conformance report from app-architecture-rules: every product action checked across the UI, HTTP API, CLI and MCP (illustrative data)](examples/preview.jpg)
+<p align="center"><img src="media/conformance.svg" width="720" alt="Conformance run: checks for every action on UI, HTTP, CLI and MCP. A failed scope check over MCP blocks the release; after the fix every check passes and the release is ready."></p>
+
+See the [full conformance report](examples/preview.jpg) (illustrative data), or open the [report from the real Tasks app run](examples/tasks-app/conformance/runs/20261002T171403Z-integration-55004118-25bd-4523-95c6-08e5fbedb867/report.html) in a browser after cloning.
 
 ## Install
 
